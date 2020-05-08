@@ -1,0 +1,25 @@
+
+.page-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  .navbar {
+    background-color: transparent;
+
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: #000;
+          font-family: 'merienda';
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.home-section {
+  z-index: -1;
+}
